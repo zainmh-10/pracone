@@ -12,10 +12,68 @@
         </div>
     </header>
 
-<!-- 1111-->
+<!-- Form Section -->
 
     <main>
+        <form>
+            <label for="name">name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name"/>
+            <br>
+            <label for="email">email</label>
+            <input type="email" id="email" name="email" value="email@email.com"/>
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password"/>
+            <br>
+            <label for="confirm_password">confirm password</label>
+            <input type="password" id="confirm_password" name="confirm_password"/>
+            <br>
+            <label for="checkbox">do you live in the uk</label>
+            <input type="checkbox" id="checkbox" name="checkbox"/>
+            <br>
+            <label for="Male">Male</label>
+            <input type="radio" id="male" name="radio">
 
+            <label for="female">female</label>
+            <input type="radio" id="female" name="radio"/>
+             <br>
+            
+            <label for="pet-select">favourite pet</label>
+            <select name="pets" id="pet-select">
+                <option value="">Please choose your favourite pet</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+
+            <label for="food-select">favourite food</label>
+            <select name="foods" id="food-select">
+                <option value="">Please choose your favourite food</option>
+                <option value="Pizza">Pizza</option>
+                <option value="Burger">Burger</option>
+                <option value="Pasta">Pasta</option>
+                <option value="Salad">Salad</option>
+            </select>
+
+            <br>
+
+            <label for="message">feedback</label>
+            <textarea id="message" name="message" placeholder="your feedback"></textarea>
+
+            <br>
+
+            <button>Submit</button>
+        </form>
+
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" />
+            <button>Search</button>
+        </form>
+
+        <hr>
         <h2><b><i>Personal Details</i></b></h2>
         <p><b>Name:</b> Zain Mohmed</p>
         <p><b>Email:</b> zainmohmed@example.com</p>
@@ -25,6 +83,71 @@
         <h2><b><i>About Me</i></b></h2>
         <p>Hi, my name is <b>Zain Mohmed</b>. This is a brief introduction about who I am. I am a passionate web developer with experience in creating responsive and user-friendly websites.</p>
 
+        <!-- List section -->
+        <div>
+            <h3>hobbies</h3>
+            <ul>
+                <li>sports</li>
+                <ul>
+                    <li>football</li>
+                    <ul>
+                        <li>Manchester united</li>
+                    </ul>
+                    <li>cricket</li>
+                    <li>tennis</li>
+                </ul>
+                <li>hiking </li>
+                <ul>
+                    <li>mountain hiking</li>
+                    <li>nature walks</li>
+                </ul>
+            </ul>
+
+        </div>
+        <hr>
+
+        <!-- table section -->
+
+        <Table>
+            <caption><b><i>largest Cities</b></caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">City</th>
+                    <th rowspan="2">Country</th>
+                    <th colspan="3">City Details</th>
+                </tr>
+            
+                <tr>
+                    <th>Population</th>
+                    <th>Area</th>
+                    <th>Density</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tokyo</td>
+                    <td>Japan</td>
+                    <td>13,929,286</td>
+                    <td>622 km</td>
+                    <td>22,387/km</td>
+                </tr>
+                <tr>
+                    <td>London</td>
+                    <td>United Kingdom</td>
+                    <td>9,426,700</td>
+                    <td>1,572 km</td>
+                    <td>5,994/km</td>
+                </tr>
+                <tr>
+                    <td>Riyadh</td>
+                    <td>Saudi Arabia</td>
+                    <td>1,483,000</td>
+                    <td>1,272 km</td>
+                    <td>1,166/km</td>
+                </tr>
+            </tbody>
+        </Table>
+
         <!-- button below -->
 
        <button><a href="https://www.linkedin.com">Visit my LinkedIn Profile</a></button>
@@ -32,7 +155,7 @@
        <!-- image -->
  
        <p>below is a random image</p>
-         <img src="./randomimage.jpg" alt="Random Image">
+         <img src="./randomimage copy.jpg" alt="Random Image">
 
     </main>
 
